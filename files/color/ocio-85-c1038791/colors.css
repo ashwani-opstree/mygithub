@@ -1,0 +1,36 @@
+.global-nav-container a{ color: #e4ec75; }
+.global-nav-container a span{color: #e4ec75; }
+.global-nav-container a span sup{color: #e4ec75; }
+.global-sub-nav  ul.clearfix .leaf:hover{ 
+	border-bottom: 4px solid #e4ec75;
+	bottom: 0px;
+	content: "";
+}
+
+
+.main_nav  ul.nav  li.active:hover
+  {
+   border-bottom: solid 4px #e4ec75;
+      
+  }
+  .main_nav  ul.nav  li:hover
+  {
+   border-bottom: solid 4px #e4ec75;
+      
+  }
+  .main_nav  ul.nav  li.active
+  {
+   border-bottom: solid 4px #e4ec75;
+      
+  }
+
+
+  #global-sub-nav-child ul.clearfix li:hover{
+   border-bottom: solid 4px #e4ec75;
+  }
+   #global-sub-nav-child ul.clearfix li.active{
+   border-bottom: solid 4px #e4ec75;
+  }
+  #global-sub-nav-child ul.clearfix li.active:hover{
+   border-bottom: solid 4px #e4ec75;
+  }

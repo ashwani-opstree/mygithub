@@ -1,0 +1,29 @@
+.global-nav-container a{ color: #7128ab; }
+.global-nav-container a span{color: #7128ab; }
+.global-nav-container a span sup{color: #7128ab; }
+
+.main_nav  ul.nav  li.active:hover
+  {
+   border-bottom: solid 4px #7128ab;
+      
+  }
+  .main_nav  ul.nav  li:hover
+  {
+   border-bottom: solid 4px #7128ab;
+      
+  }
+  .main_nav  ul.nav  li.active
+  {
+   border-bottom: solid 4px #7128ab;
+      
+  }
+
+  #global-sub-nav-child ul.clearfix li:hover{
+   border-bottom: solid 4px #7128ab;
+  }
+   #global-sub-nav-child ul.clearfix li.active{
+   border-bottom: solid 4px #7128ab;
+  }
+  #global-sub-nav-child ul.clearfix li.active:hover{
+   border-bottom: solid 4px #7128ab;
+  }

@@ -1,0 +1,12 @@
+div.modal-forms-modal-content .close {
+  opacity: 1;
+}
+div.modal-forms-modal-content .modal-header {
+  padding: 12px;
+}
+div.modal-forms-modal-content .form-radio {
+  float: none;
+}
+div.modal-forms-modal-content .modal-content {
+  padding: 12px;
+}

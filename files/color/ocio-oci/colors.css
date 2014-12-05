@@ -1,0 +1,35 @@
+a { color: #6bd200;}
+a:hover, a:focus {color: #6bd200;}
+.global-nav-container a{ color: #6bd200; }
+.global-nav-container a span{color: #6bd200; }
+.global-nav-container a span sup{color: #6bd200; }
+.carousel-inner .item h3{	color: #6bd200;}
+.number-head{color: #6bd200;}
+.thumbnail, .thumbnail:focus, .thumbnail:hover, .thumbnail:active {color: #6bd200;}
+.thumbnail, .thumbnail:focus .number-head, .thumbnail:hover .number-head, .thumbnail:active .number-head {color: #6bd200;}
+.head-text{color: #6bd200;}
+.global-nav-container .global-main-nav-sm .global-nav-menu a {color: #6bd200;}
+
+.global-nav-container .global-sub-nav ul li.active a:after {
+    border-left: 6px solid #6bd200;
+}
+@media (min-width: 981px){
+	.global-nav-container .global-sub-nav ul li.leaf a:hover{
+		border-bottom: solid 4px #6bd200;
+	}
+	.global-nav-container .global-sub-nav ul li.leaf a:focus{
+		border-bottom: solid 4px #6bd200;
+	}
+	.global-nav-container .global-sub-nav ul li.leaf.active a{
+		border-bottom: solid 4px #6bd200;
+	}
+	.global-nav-container .global-sub-nav ul li.global-sub-nav-home a:hover{
+		border-bottom: none;
+	}
+	.global-nav-container .global-sub-nav ul li.global-sub-nav-home a:focus{
+		border-bottom: none;
+	}
+	.global-nav-container .global-sub-nav ul li.global-sub-nav-home.active a{
+		border-bottom: none;
+	}
+}

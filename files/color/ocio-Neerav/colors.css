@@ -1,0 +1,36 @@
+.global-nav-container a{ color: #394a9a; }
+.global-nav-container a span{color: #394a9a; }
+.global-nav-container a span sup{color: #394a9a; }
+.global-sub-nav  ul.clearfix .leaf:hover{ 
+	border-bottom: 4px solid #394a9a;
+	bottom: 0px;
+	content: "";
+}
+
+
+.main_nav  ul.nav  li.active:hover
+  {
+   border-bottom: solid 4px #394a9a;
+      
+  }
+  .main_nav  ul.nav  li:hover
+  {
+   border-bottom: solid 4px #394a9a;
+      
+  }
+  .main_nav  ul.nav  li.active
+  {
+   border-bottom: solid 4px #394a9a;
+      
+  }
+
+
+  #global-sub-nav-child ul.clearfix li:hover{
+   border-bottom: solid 4px #394a9a;
+  }
+   #global-sub-nav-child ul.clearfix li.active{
+   border-bottom: solid 4px #394a9a;
+  }
+  #global-sub-nav-child ul.clearfix li.active:hover{
+   border-bottom: solid 4px #394a9a;
+  }

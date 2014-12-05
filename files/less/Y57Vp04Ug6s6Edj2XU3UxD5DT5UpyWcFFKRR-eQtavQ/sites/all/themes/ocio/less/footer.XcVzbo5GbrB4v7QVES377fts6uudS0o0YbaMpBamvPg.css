@@ -1,0 +1,124 @@
+#footer {
+  position: relative;
+  margin-top: 45px;
+}
+@media (max-width: 980px) {
+  .menu-expand #footer {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-left: 270px;
+    z-index: 1000;
+  }
+}
+#footer .footer-cls {
+  background: #efefef;
+  border-top: 1px solid #dcdcdc;
+  color: white;
+  position: relative;
+  min-height: 200px;
+}
+#footer .footer-cls div {
+  text-align: left;
+}
+#footer .footer-cls .footer-ebayinc-logo {
+  text-align: left;
+}
+#footer .footer-cls .footer-ebayinc-logo img {
+  width: 70px;
+}
+#footer .footer-cls .footer-copy {
+  margin: -2px 0px 5px;
+}
+@media (max-width: 459px) {
+  #footer .footer-cls .footer-copy span {
+    display: block;
+  }
+}
+#footer .footer-cls .footer-copy .foot-sep {
+  padding: 0px 8px;
+}
+@media (max-width: 459px) {
+  #footer .footer-cls .footer-copy .foot-sep {
+    display: none;
+  }
+}
+#footer .footer-cls .footer-confidentiality {
+  display: none;
+  line-height: 16px;
+}
+#footer .footer-cls .footer-confidentiality-link {
+  text-decoration: underline;
+}
+#footer .footer-cls .copyright .copyright-text {
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+  color: #999999;
+  left: 8px;
+}
+#footer .footer-cls .copyright .copyright-text a {
+  color: #999999;
+}
+.lt-ie8 #footer .footer-cls .copyright .copyright-text {
+  width: 99%;
+}
+@media (max-width: 979px) {
+  #footer .footer-cls .copyright .copyright-text {
+    left: 8px;
+  }
+}
+@media (max-width: 979px) {
+  .employee-services #footer .footer-cls .copyright .copyright-text {
+    left: 8px;
+  }
+  .lt-ie9 .employee-services #footer .footer-cls .copyright .copyright-text {
+    left: 8px;
+  }
+}
+#to_top {
+  position: absolute;
+  right: 10%;
+  top: -35px;
+  width: 51px;
+  height: 27px;
+  display: none;
+  background: url(/sites/all/themes/ocio/images/scroll_up.png) no-repeat;
+  cursor: pointer;
+}
+.apply-anim #to_top {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+@media (max-width: 767px) {
+  #to_top {
+    right: 2%;
+  }
+}
+@media (min-width: 980px) {
+  #to_top {
+    right: 13%;
+  }
+}
+#to_top a {
+  text-decoration: none;
+  color: #796e65;
+  font-size: 11px;
+  display: block;
+  padding: 9px 16px;
+}
+#to_top a:hover,
+#to_top a:focus {
+  text-decoration: none;
+  color: #0064d2;
+}
+.apply-anim #to_top a:hover,
+.apply-anim #to_top a:focus {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}

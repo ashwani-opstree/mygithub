@@ -1,0 +1,10 @@
+a, a:hover, a:focus, ul.menu li a.active, ul.menu li a:hover, #forum thead a:hover, #block-node-recent .node-title a:hover { color: #a2534a; }
+a span{color: #a2534a; }
+a span sup{color: #a2534a; }
+.global-sub-nav .sub-nav-item:hover{ 
+	border-bottom: 4px solid #a2534a;
+	bottom: 0px;
+	content: "";
+	position: absolute;
+	a {padding:43px 0 !important;}
+}
