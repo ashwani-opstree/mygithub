@@ -1,6 +1,8 @@
-@Library('mytools') _
-import org.mytools.Utils
+@Library('mytools')
+
+import org.mytools.Tools
 Tools tools = new Tools(this)
+
 pipeline {
     agent any
     stages {
